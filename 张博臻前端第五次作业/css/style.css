@@ -1,0 +1,440 @@
+*{
+	margin: 0px;
+	font-family:Microsoft YaHei;
+}
+
+body{
+	background-image: url(../images/background.gif);
+}
+
+.topborder{
+	box-shadow: 0 0 1px #fff;
+	position: relative;
+	top: -8px;
+	width: 100%;
+	height: 40px;
+	background-color: rgba(23,23,23,0.5);
+	border-bottom:1px solid #000000;
+	border-radius: 2px;
+}
+
+div.topborder a{
+	text-decoration: none;
+	color: #818082;
+	font-size: 9px;
+	line-height: 47px;
+
+}
+
+.topborder a:hover{
+	text-decoration: underline;
+	color: #b2b2b2;
+}
+
+.function{
+	position: absolute;
+	left: 190px;
+}
+
+.logotool{
+	position: absolute;
+	left: 1100px;
+	top:12px;
+}
+
+.title{
+	position: absolute;
+	left: 190px;
+	top: 80px;
+	height: 35px;
+	width: 300px;
+	text-shadow:2px 2px 3px #000000;
+}
+
+div.title h1{
+	color: #e4e4e4;
+}
+
+div.title h6{
+	color: #5f5f60;
+}
+
+.searchnav{
+	position: relative;
+	left: 910px;
+	top: 30px;
+	height: 45px;
+	width: 280px;
+}
+
+input{	
+	height: 36px;
+	width: 263px;
+	border: 0;
+	border-radius: 20px;
+	box-shadow: 0 1px 1px #686868;
+	background: linear-gradient(#000000,#161616);
+	color:#858585;
+}
+
+div.searchnav div{
+	position: absolute;
+	left: 230px;
+	top: 7px;
+}
+
+.nav{
+	border-radius: 2px;
+	position: relative;
+	left: 190px;
+	top: 70px;
+	width: 980px;
+	height: 60px;
+	background: url(../images/nav.png);
+	box-shadow: 0 0 1px #ffffff;
+}
+
+div.nav ul{
+	padding: 0;
+}
+
+div.nav li{
+	list-style: none;
+	text-align: center;
+	padding:20px;
+	border-right: 1px solid #000000;
+	box-shadow: 0 0 1px #ffffff;
+	text-shadow:1px 1px 1px #000000;
+}
+
+div.nav a{
+	float: left;
+	font-size: 15px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.nav ul a:hover{
+	background: rgba(255,255,255,0.3);
+}
+
+.watchwindow{
+	position: relative;
+	left: 190px;
+	top: 100px;
+	width: 980px;
+	height: 420px;
+	background-color: #191919;
+	box-shadow: 0 0 1px #212121;
+	border-radius: 9px;
+}
+
+div.watchwindow div{
+	width: 980px;
+	height: 360px;
+	background-color: #ffffff;
+	border-radius: 9px;
+}
+
+div.watchwindow p{
+	position: relative;
+	top: -1px;
+	font-size: 20px;
+	color: #ffffff;
+	margin-left: 130px;
+	margin-top: 18px;
+}
+
+div.watchwindow span{
+	position: relative;
+	left: 430px;
+	top: -25px;
+	color: #8a8b89;
+	font-size: 10px;
+}
+
+div.watchwindow a{
+	position: absolute;
+	left: 650px;
+	top: 370px;
+	font-size: 15px;
+	color: #ffffff;
+	text-decoration: none;	
+}
+
+#botton{
+	padding-top: 10px;
+	width: 115px;
+	height: 30px;
+	background: linear-gradient(#2781c1,#185a96);
+	border-radius: 5px;
+	text-align: center;
+}
+
+#botton:hover{
+	background: rgba(255,255,255,0.3);
+}
+
+.threebotton{
+	position: absolute;
+	left: 625px;
+	top: 680px;
+}
+
+.threebotton div{
+	margin: 5px;
+	float: left;
+}
+
+.firstbotton{
+	border-radius: 100%;
+	width: 18px;
+	height: 18px;
+	background: linear-gradient(#f8f8f8,#c1c1c1);
+	cursor: pointer;
+}
+
+.secendbotton{
+	border-radius: 100%;
+	width: 18px;
+	height: 18px;
+	background: linear-gradient(#0a69b7,#36a1d3);
+	cursor: pointer;
+}
+
+.thirdbotton{
+	border-radius: 100%;
+	width: 18px;
+	height: 18px;
+	background: linear-gradient(#f8f8f8,#c1c1c1);
+	cursor: pointer;
+}
+
+.content{
+	position: absolute;
+	left: 190px;
+	top: 730px;
+	width: 980px;
+	height: 635px;
+	background-color: rgba(14,14,14,0.75);
+	border-radius: 9px;
+	border:3px solid #333333;
+} 
+
+div.content p{
+	position: relative;
+	top: 20px;
+	font-size: 4px;
+	color: #a8a8a8;
+}
+
+.welcome{
+	margin-top: 31px;
+	margin-left: 20px;
+	width: 600px;
+	height: 250px;
+}
+
+div h1{
+	color: #ffffff;
+	font-size: 25px;
+}
+
+div.welcome div{
+	position: relative;
+	top:5px;
+	width: 600px;
+	height: 3px;
+	background-color: rgba(37,37,37,0.9);
+}
+
+div.welcome h5{
+	margin-top: 14px;
+	position: relative;
+	top: 5px;
+	color: #a8a8a8;
+}
+
+#newbotton{
+	background: linear-gradient(#2781c1,#185a96);
+	border-radius: 5px;
+	text-align: center;
+	width: 100px;
+	height: 25px;
+}
+
+div.welcome a{	
+	position: absolute;
+	top: 270px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.linking{
+	position: relative;
+	left: 650px;
+	top: -250px;
+	width: 320px;
+	height: 250px;
+}
+
+div.linking div{
+	position: relative;
+	top:5px;
+	width: 320px;
+	height: 3px;
+	background-color: rgba(37,37,37,0.9);
+}
+
+div.linking ul{
+	margin-top: 13px;
+	padding-left: 18px;
+
+}
+
+div.linking li{
+	font-size: 1px;
+	padding-bottom: 7px;
+	color: #8a8a8a;
+}
+
+div.linking a{
+	color: #349ce6;
+}
+
+.linking a:hover{
+	color: #ffffff;
+}
+
+.featured{
+	position: relative;
+	left: 20px;
+	top: -200px;
+	width: 600px;
+	height: 300px;
+}
+
+div.featured div{
+	position: relative;
+	top:5px;
+	width: 600px;
+	height: 3px;
+	background-color: rgba(37,37,37,0.9);
+}
+
+#picture{
+	position: relative;
+	top: 40px;
+	left: -3px;
+	width: 600px;
+	height: 160px;
+	background-color: rgba(09,09,09,0.7);
+	border: 3px solid #333333;
+}
+
+#images{
+	position: relative;
+	left: 17px;
+	top: 10px;
+	float: left;
+	width: 130px;
+	height: 100px;
+	background-color: #ffffff;
+	margin:6px; 
+}
+
+.left{
+	position: relative;
+	left: -563px;
+	top: 55px;
+}
+
+.right{
+	position: relative;
+	left: 16px;
+	top: 33px;
+}
+
+div#picture a{
+	position: relative;
+	top: 10px;
+	text-decoration: none;
+	color: #a8a8a8;
+	font-size: 1px;
+}
+
+div#picture a:hover{
+	color: #349ce6;
+}
+
+.map{
+	position: relative;
+	left: 650px;
+	top: -500px;
+	width: 310px;
+	height: 300px;
+}
+
+div.map div{
+	position: relative;
+	top:5px;
+	width: 320px;
+	height: 3px;
+	background-color: rgba(37,37,37,0.9);
+	margin-bottom: 15px;
+}
+
+div.map li{
+	list-style: none;
+	font-size: 4px;
+	color: #a8a8a8;
+}
+
+div.map ul{
+	padding-left: 0;
+}
+
+div.map img{
+	position: relative;
+	top: 14px;
+	border: 2px solid #999999;
+}
+
+#biaoji{
+	position: relative;
+	left: 115px;
+	top: -50px;
+	border: none;
+}
+
+.bottom{
+	position: absolute;
+	left: 194px;
+	top: 1385px;
+	width: 980px;
+	height: 20px;
+}
+
+div.bottom a{
+	text-decoration: none;
+	color: #808080;
+	font-size: 10px;
+}
+
+div.bottom p{
+	position: absolute;
+	left: 600px;
+	top: 2px;
+	width: 400px;
+	font-size: 1px;
+	color: #8a8a8a;
+}
+
+div.bottom p a{
+	text-decoration: underline;
+}
+
+.bottom a:hover{
+	color: #ffffff;
+}
